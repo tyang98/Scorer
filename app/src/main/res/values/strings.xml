@@ -4,7 +4,14 @@
     <string name="team_1">Team 1</string>
     <string name="minus_button">Minus Button</string>
     <string name="plus_button">Plus Button</string>
-    <string name="initial">0</string>
+    <string name="initial_value_1">0</string>
+    <string name="initial_value_2">0</string>
     <string name="night_mode">Night Mode</string>
     <string name="day_mode">Day Mode</string>
+    <string name="first_minus_button">First Minus</string>
+    <string name="first_plus_button">First Plus</string>
+    <string name="second_minus_button">Second Minus</string>
+    <string name="second_plus_button">Second Plus</string>
+    <string name="second_score">Second Score</string>
+    <string name="first_score">First Score</string>
 </resources>
