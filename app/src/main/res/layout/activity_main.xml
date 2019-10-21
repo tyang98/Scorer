@@ -27,6 +27,7 @@
             android:layout_alignParentStart="true"
             android:layout_centerVertical="true"
             android:onClick="decreaseScore"
+            android:contentDescription="@string/first_minus_button"
             style="@style/MinusButtons"/>
 
         <TextView
@@ -35,7 +36,8 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
-            android:text="@string/initial"
+            android:text="@string/initial_value_1"
+            android:contentDescription="@string/first_score"
             android:textAppearance="@style/TextAppearance.AppCompat.Headline"/>
 
         <ImageButton
@@ -46,6 +48,7 @@
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
             android:onClick="increaseScore"
+            android:contentDescription="@string/first_plus_button"
             style="@style/PlusButtons"/>
     </RelativeLayout>
 
@@ -70,6 +73,7 @@
             android:layout_alignParentStart="true"
             android:layout_centerVertical="true"
             android:onClick="decreaseScore"
+            android:contentDescription="@string/second_minus_button"
             style="@style/MinusButtons"/>
 
         <TextView
@@ -78,7 +82,8 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
-            android:text="@string/initial"
+            android:text="@string/initial_value_2"
+            android:contentDescription="@string/second_score"
             android:textAppearance="@style/TextAppearance.AppCompat.Headline"/>
 
         <ImageButton
@@ -88,6 +93,7 @@
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
+            android:contentDescription="@string/second_plus_button"
             android:onClick="increaseScore"
             style="@style/PlusButtons"/>
     </RelativeLayout>
